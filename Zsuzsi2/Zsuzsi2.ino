@@ -108,7 +108,7 @@ MaxMatrix m(DIN, CS, CLK, maxInUse);
 
 byte buffer[10];
 
-char text[] = "Hello ";
+char text[] = "Szia, mizu?  ";
 
 void setup() {
   m.init();
