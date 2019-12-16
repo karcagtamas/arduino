@@ -96,7 +96,7 @@ PROGMEM const unsigned char CH[] = {
   3, 8, B00001000, B00110110, B01000001, B00000000, B00000000, // {
   1, 8, B01111111, B00000000, B00000000, B00000000, B00000000, // |
   3, 8, B01000001, B00110110, B00001000, B00000000, B00000000, // }
-  4, 8, B00001000, B00000100, B00001000, B00000100, B00000000, // ~
+  5, 8, B00001100, B00011110, B00111100, B00011110, B00001100, // ~ --> heart
 };
 
 int DIN = 7;
@@ -108,7 +108,7 @@ MaxMatrix m(DIN, CS, CLK, maxInUse);
 
 byte buffer[10];
 
-char text[] = "Szia, mizu?  ";
+char text[] = "Merry Christmas My Dear! I LOVE YOU! ~~~~~~      "; // FOR Zsuzsi
 
 void setup() {
   m.init();
