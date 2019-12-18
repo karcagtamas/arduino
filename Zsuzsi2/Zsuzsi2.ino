@@ -112,11 +112,11 @@ char text[] = "Merry Christmas My Dear! I LOVE YOU! ~~~~~~      "; // FOR Zsuzsi
 
 void setup() {
   m.init();
-  m.setIntensity(15);
+  m.setIntensity(1);
 }
 
 void loop() {
-  printStringWithShift(text, 100);
+  printStringWithShift(text, 120);
 }
 
 void printCharWithShift(char c, int shift_speed){
